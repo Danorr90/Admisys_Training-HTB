@@ -39,6 +39,7 @@ def main():
 		os.system('msfconsole')
 	else:
 		print("Choisissez un bon numéro de commande 1, 2 ou 3")
+		return main()
 
 
 if __name__ == '__main__':
