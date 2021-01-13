@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Source https://xael.org/pages/python-nmap-en.html#:~:text=python-nmap%20is%20a%20python,can%20even%20be%20used%20asynchronously
+#Source https://xael.org/pages/python-nmap-en.html
 #pip install python-nmap
 
 import nmap
@@ -17,9 +17,9 @@ print("*            \/              \/         \/           *")
 print("******************************************************")
 
 def main():
-	
+
 	r = input(" 	1- Scan réseau\n	2- Détection de vulnérabilité\n 	3- Exploit\n\n		Veuillez entrer un numéro : ")
-	
+
 	if r =='1':
 		print("******************************************************")
 		print("*		    Scan réseau			     *")
