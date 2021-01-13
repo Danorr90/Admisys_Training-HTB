@@ -1,5 +1,5 @@
 bak_exist() { 
-    echo $fic  | grep -E '^.*\.bak' > /dev/null 2>&1 #le fichier ccommence par n'importe quoi et ce termine en .bak
+    echo $fic  | grep -E '^.*\.bak' > /dev/null 2>&1
     return $?
 
 }
