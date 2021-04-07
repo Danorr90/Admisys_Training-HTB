@@ -10,6 +10,6 @@ virt-install --connect qemu:///system --virt-type kvm --name Odin \
 
 --graphics none \
 
---console pty,target_type=seriel \
+--console pty,target_type=serial \
 
 --extra-args="console=ttys0" --debug
